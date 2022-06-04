@@ -9,6 +9,7 @@ module.exports = {
         }
     ],
     category: "Utility",
+    usage: '/quote <text>',
     description: "create your quote",
     ownerOnly: false,
     run: async (client, interaction) => {
