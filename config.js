@@ -1,7 +1,7 @@
 module.exports = {
-    botClientID: "YOUR_BOT_ID",
-    botPrefix: "!",
-    ownerID: "YOUR_ID",
-    embedColor: "#00dbff",
-    embedfooterText: "Discord.js v13 Example by Expectatives#1157"
+    botClientID: "974353421379452928",
+    botPrefix: "",
+    ownerID: "339654527550750720",
+    embedColor: "#E91E63",
+    embedfooterText: "SCP-1337 - чак чак"
 }

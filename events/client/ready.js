@@ -8,9 +8,9 @@ module.exports = {
     async execute(client) {
         
         // Puts an activity
-        client.user.setActivity("Expectatives#1157", {
-            type: "WATCHING",
-            name: "Expectatives#1157"
+        client.user.setActivity("with sunny", {
+            type: "PLAYING",
+            name: "with sunny"
         });
         
         // Send a message on the console
