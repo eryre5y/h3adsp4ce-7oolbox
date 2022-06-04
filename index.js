@@ -28,7 +28,7 @@ const requestListener = function (req, res) {
 }
 
 const server = http.createServer(requestListener);
-server.listen(80);
+server.listen(8080);
 
 const Discord = require('discord.js');
 
