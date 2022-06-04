@@ -20,6 +20,13 @@ const client = new Client({
     ],
 });
 
+
+
+const Discord = require('discord.js');
+
+// Call .env file to get Token
+require('dotenv').config()
+
 const http = require('http');
 
 const requestListener = function (req, res) {
@@ -28,12 +35,7 @@ const requestListener = function (req, res) {
 }
 
 const server = http.createServer(requestListener);
-server.listen(8080);
-
-const Discord = require('discord.js');
-
-// Call .env file to get Token
-require('dotenv').config()
+server.listen(process.env.PORT || 5000);
 
 module.exports = client;
 
