@@ -17,6 +17,8 @@ module.exports = {
     run: async (client, interaction) => {
         // await interaction.channel.sendTyping();
 
+        const text = interaction.options.getString("text");
+
         const meEmbed = new client.discord.MessageEmbed()
         .setDescription(`**<@${interaction.member.id}>** ${text}`)
         .setColor(client.config.embedColor)
