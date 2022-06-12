@@ -34,7 +34,7 @@ module.exports = {
             .setTitle(`Your question`)
             .setDescription(`_${question}_`)
             .setColor(client.config.embedColor)
-            .addField("Answer", `${responses[Math.floor((Math.random() * responses.length) + 1)]}`, true)
+            .addField("Answer", `${responses[Math.floor((Math.random() * responses.length))]}`, true)
             .setFooter({ text: `${client.config.embedfooterText}`, iconURL: `${client.user.displayAvatarURL()}` });
 
         await interaction.reply({embeds: [answerEmbed] });
