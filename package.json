@@ -10,6 +10,7 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
+    "@barreljs/json-filter": "^0.0.2",
     "chalk": "^4.1.0",
     "discord.js": "^13.3.1",
     "dotenv": "^10.0.0",
